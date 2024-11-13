@@ -4,13 +4,12 @@ on:
   push:
     branches:
       - main
-
 env:
-  PROJECT_ID: { { PROJECT_ID } }
-  GAR_LOCATION: { { GAR_LOCATION } }
-  REPOSITORY: { { GAR_REPOSITORY } }
-  SERVICE: { { SERVICE } }
-  REGION: { { REGION } }
+  PROJECT_ID: chan-services
+  GAR_LOCATION: us-central1
+  REPOSITORY: deno-repository
+  SERVICE: vis-chan
+  REGION: us-central1
 
 jobs:
   deploy:
