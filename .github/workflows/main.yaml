@@ -11,6 +11,7 @@ env:
   SERVICE: vis-chan
   REGION: us-central1
 
+
 jobs:
   deploy:
     name: Deploy
